@@ -1,7 +1,7 @@
 name = "ReshapableArrays"
 uuid = "7635566c-5857-4f75-b71b-00e393c9c0a7"
 authors = ["Vincent Le Chenadec <vincentlechenadec@gmail.com> and contributors"]
-version = "0.1.0"
+version = "0.1.1"
 
 [compat]
 julia = "1.6.7"

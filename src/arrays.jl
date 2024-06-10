@@ -3,6 +3,8 @@ struct ReshapableArray{T,N,M,A<:AbstractArray{T,N},B<:AbstractArray{T,M}} <: Abs
     bis::B
 end
 
+parenttype(::Type{<:ReshapableArray{T,N,M,A}}) where {T,N,M,A} = A
+
 # accessors
 
 parent(this::ReshapableArray) = this.data

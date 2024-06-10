@@ -8,6 +8,8 @@ import Base: parent,
 
 export NColon,
        ncolon,
+       parenttype,
+       ReshapableArray,
        reshapable
 
 const NColon{N} = NTuple{N,Colon}
